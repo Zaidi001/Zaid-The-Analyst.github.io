@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Ghulam Murtaza: Data Engineering Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+</head>
+<body class="is-preload">
+
+<!-- Wrapper -->
+<div id="wrapper" class="fade-in">
+
+    <!-- Intro -->
+    <div id="intro">
+        <h1>Ghulam Murtaza Portfolio</h1>
+        <p>Explore a portfolio rich with projects in data scraping and data cleaning using SQL. Connect with me on <a href="https://www.linkedin.com/in/ghulam-murtaza-ms-310741110/">@My_Linkedin</a>.</p>
+        <ul class="actions">
+            <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+        </ul>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <a href="index.html" class="logo">Murtaza: 📈Data Engineer</a>
+    </header>
+
+    <!-- Main -->
+    <main id="main">
+        <!-- Posts -->
+        <section class="posts">
+            <article>
+                <header>
+                    <h2><a href="https://github.com/Gmurtaza57/Amazon-Web-Scrapping-Project">Amazon Data Scrapping</a></h2>
+                </header>
+                
+                <a href="https://github.com/Gmurtaza57/Amazon-Web-Scrapping-Project" class="image fit"><img src="images/amazon.png" alt="" /></a>
+                <div class="project-section">
+
+
+                    <p><strong>Skills:</strong> Beautiful Soup · Simple Mail Transfer Protocol (SMTP)
+                    </p>
+                    <p>🔍 Developed a Python web scraping script for Amazon shirt price monitoring, leveraging BeautifulSoup and requests libraries.</p>
+                    <p>📧 Implemented an automated email system, notifying my Gmail for price drops below set threshold.</p>
+                    <p>⚙️ Utilized SMTP protocol & smtplib library, ensuring secure connection to Gmail's SMTP server for direct email delivery.</p>
+                    <p>🗂️ Integrated CSV handling, recording shirt details & dates for insightful historical price tracking.</p>
+                    <p>💡 Demonstrated expertise in data manipulation using datetime & csv libraries for accurate data management.</p>
+                    <p>💪 Overcame challenges in scraping data and handling Gmail's security measures.</p>
+                  
+                    
+                </div>
+                
+                <ul class="actions special">
+                    <li><a href="https://github.com/Gmurtaza57/Amazon-Web-Scrapping-Project" class="button">View Project</a></li>
+                </ul>
+                <div class="thumbs-up" data-id="like5" onclick="incrementCounter(this)">&#128077;</div>
+                <div class="counter" data-id="like5">0</div>
+            </article>
+            <article>
+                <header>
+                    <h2><a href="https://github.com/Gmurtaza57/Twitter-Data-Scrapper-Project-">Twitter Data Scraper Using API</a></h2>
+                </header>
+                <a href="https://github.com/Gmurtaza57/Twitter-Data-Scrapper-Project-" class="image fit"><img src="images/twitter_data.png" alt="" /></a>
+                <div class="project-section">
+
+                    <p><strong>Skills:</strong> NLTK · twitterscraper · spaCy · pandas</p>
+                    <p>🐦 Fetched and Analyzed Twitter Data of User 'realDonaldTrump' using twitterscraper.</p>
+                    <p>🔍 Conducted Text Preprocessing: Tokenization, Stemming, Stop Word Removal, and Punctuation Handling using nltk.</p>
+                    <p>📊 Performed Exploratory Data Analysis (EDA) to Reveal Most Frequent Words in Tweets.</p>
+                    <p>📈 Visualized Top 20 Words with Bar Plot using seaborn Library.</p>
+                    <p>📝 Utilized spacy for Named Entity Recognition (NER) to Extract Organizations and People Mentioned.</p>
+                    <p>🏢 Presented Top 20 Organizations Mentioned with Bar Plot using seaborn.</p>
+                    <p>👥 Highlighted Top 20 People Mentioned with Bar Plot using seaborn.</p>
+                    <p>📊 Created Data Visualizations to Showcase Key Insights from Twitter Data.</p>
+                    <p><br><strong>As of April 2023, free access to the API for academic or research purposes is unavailable. Third-party tools like TwitterScrapper can't retrieve tweets either. For those wanting to use Tweepy's official Twitter scraping API, there's a charge of $100 for searching tweets. As a result, the "try yourself" feature in my portfolio is not functioning.</strong></p>
+                   
+                    
+                </div>
+                
+                <ul class="actions special">
+
+                    <li><a href="https://github.com/Gmurtaza57/Twitter-Data-Scrapper-Project-" class="button">View Project</a></li>
+                    <li><a href="twitter.html" class="button">Try Yourself</a></li>
+                </ul>
+                <div class="thumbs-up" data-id="like6" onclick="incrementCounter(this)">&#128077;</div>
+                <div class="counter" data-id="like6">0</div>
+            </article>
+            <article>
+                <header>
+                    <h2><a href="#">SQL Data Cleaning</a></h2>
+                </header>
+                <a href="" class="image fit"><img src="images/sql_clean.png" alt="" /></a>
+                <div class="project-section">
+
+                    <p><span class="emoji">📅</span> <b>Standardized the Sale Date Column:</b> Transformed the `sale_date` column to DATE format, removing the time component.</p>
+                    
+                    <p><span class="emoji">🔍</span> <b>Addressed Null Values:</b> Filled null entries in the property address column using Parcel ID-based self joins.</p>
+                    
+                    <p><span class="emoji">📍</span> <b>Optimized Address Data:</b> Segregated the property address into distinct address and city columns.</p>
+                    
+                    <p><span class="emoji">✉</span> <b>Further Address Optimization:</b> Split the owner address into address, city, and state columns for detailed data analysis.</p>
+                    
+                    <p><span class="emoji">🧹</span> <b>Data Cleaning Initiatives:</b> Purged duplicate rows, deleted superfluous columns, and standardized data formats for precise interpretation.</p>
+                    
+                    <p><span class="emoji">💡</span> <b>Actionable Insights:</b> Recommended cleaning further columns, visual data exploration, predictive housing price models, and enriching the dataset with external data sources.</p>
+                
+                </div>
+                
+                <ul class="actions special">
+                    <li><a href="https://github.com/Gmurtaza57/SQL_data_cleaning" class="button">View Project</a></li>
+                    
+                </ul>
+                <div class="thumbs-up" data-id="like8" onclick="incrementCounter(this)">&#128077;</div>
+                <div class="counter" data-id="like8">0</div>
+            </article>
+            <article>
+    <header>
+        <h2><a href="https://github.com/Gmurtaza57/Crypto_API_project">Automating Crypto Website API Pull Using Python</a></h2>
+    </header>
+    
+    <a href="https://github.com/Gmurtaza57/Crypto_API_project" class="image fit"><img src="images/crypto_api.png" alt="" /></a>
+    <div class="project-section">
+
+        <p><strong>Skills:</strong> API Integration · JSON Handling · Pandas · Data Visualization · Seaborn · Error Handling
+        </p>
+        <p>🔄 Developed a Python script to automate the collection of cryptocurrency data from CoinMarketCap's API.</p>
+        <p>📊 Normalized JSON data into a Pandas dataframe, enabling efficient data analysis and transformation.</p>
+        <p>📈 Visualized cryptocurrency price percentage changes over different time frames using Seaborn.</p>
+        <p>🕐 Added a timestamp column to track data retrieval time, aiding in trend analysis.</p>
+        <p>🔍 Conducted focused analysis on specific cryptocurrencies, exemplified by Bitcoin price trends over time.</p>
+        <p>💡 Demonstrated expertise in data manipulation, transformation, and visualization to generate actionable insights.</p>
+        <p>💪 Tackled challenges like API call errors, ensuring seamless data retrieval and analysis.</p>
+
+    </div>
+    
+    <ul class="actions special">
+        <li><a href="https://github.com/Gmurtaza57/Crypto_API_project" class="button">View Project</a></li>
+    </ul>
+                <div class="thumbs-up" data-id="like7" onclick="incrementCounter(this)">&#128077;</div>
+                <div class="counter" data-id="like7">0</div>
+</article>
+
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <!-- You can add footer details here... -->
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
